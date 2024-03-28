@@ -13,8 +13,7 @@ Please read [Build Simple Login in PHP](https://developer.okta.com/blog/2018/12/
 Clone this project using the following commands:
 
 ```
-git clone git@github.com:oktadeveloper/okta-php-core-login-example.git
-cd okta-php-core-login-example
+---
 ```
 
 ### Configure the application
