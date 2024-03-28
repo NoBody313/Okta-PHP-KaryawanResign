@@ -12,7 +12,7 @@
     <div class="flex flex-row bg-white h-screen">
         <aside class="flex flex-col w-fit h-auto px-4 py-8 overflow-y-auto border-r rtl:border-r-0 rtl:border-l bg-gray-900 border-gray-700">
             <a href="#" class="flex justify-center">
-                <img class="w-auto h-24 " src="https://jec.co.id/storage/upload/Admedika2.jpg" alt="gambar">
+                <img class="w-auto h-24 " src="/src/images/AdMedika Logo RedWhite.png" alt="gambar">
             </a>
 
             <!-- <div class="relative mt-6">
@@ -90,9 +90,7 @@
                 </nav>
 
                 <div class="flex flex-col mt-4">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Welcome home again
-                        !!!
-                        👋</h5>
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Welcome home again <?php echo $_SESSION['username'] ?> !!! 👋</h5>
                     <p class="font-normal text-gray-700 dark:text-gray-400">Let's check news data today.</p>
                 </div>
 
